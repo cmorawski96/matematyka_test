@@ -1,0 +1,86 @@
+/* Ogólne ustawienia strony */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Górny nagłówek */
+header {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Główna część strony */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Nagłówki */
+h1, h2, h3 {
+    color: #1e3a8a;
+}
+
+/* Sekcje z materiałami */
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Lista materiałów */
+ul {
+    padding-left: 20px;
+}
+
+/* Linki */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Przyciski / ważne linki */
+.button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #1e40af;
+}
+
+/* Stopka */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Responsywność (telefony) */
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+}
